@@ -13,7 +13,7 @@ export default function Hero() {
         
         <div id="reg" className="h-[10rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="text-5xl md:text-7xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-sky-500">
-        MU CodeStorm
+        CodeStorm 2.O
       </h1>
       <h1 className="text-3xl md:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-sky-500">
         A National Level Hackathon
@@ -40,17 +40,17 @@ export default function Hero() {
       </div>
     </div>
         <p className="text-lg md:text-xl mb-8 text-indigo-300">
-          March 21-22, 2025 • 36 Hours • Mandsaur University Campus
+          March 19-21, 2025 • 36 Hours • Mandsaur University Campus
         </p>
         
         <div className="flex justify-center mt-8">
           <a
-            href="/ps.pdf"
+            href="https://mufests.com"
             className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
           >
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
             <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-6 py-2 text-lg font-medium text-white backdrop-blur-3xl">
-              Problem Statement
+              Register Now
             </span>
           </a>
         </div>
