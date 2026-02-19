@@ -165,9 +165,9 @@ export default function Home() {
           <Prizes />
         </ScrollAnimation>
         {/* <CardSpotlightDemo />  */}
-        <ScrollAnimation delay={0.3}>
+        {/* <ScrollAnimation delay={0.3}>
           <Themes />
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation delay={0.4}>
           <SpandanHighlights />
         </ScrollAnimation>
