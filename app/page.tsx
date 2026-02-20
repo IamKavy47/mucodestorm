@@ -173,10 +173,10 @@ export default function Home() {
         </ScrollAnimation>
         <ScrollAnimation delay={0.3}>
           <Teams />
-        </ScrollAnimation>
+        {/* </ScrollAnimation>
         <ScrollAnimation delay={0.4}>
           <CB />
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation delay={0.3}>
           <FAQ />
         </ScrollAnimation>
