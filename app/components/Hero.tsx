@@ -40,12 +40,12 @@ export default function Hero() {
       </div>
     </div>
         <p className="text-lg md:text-xl mb-8 text-indigo-300">
-          March 19-21, 2025 • 36 Hours • Mandsaur University Campus
+          March 19-20, 2026 • 30 Hours • Mandsaur University Campus
         </p>
         
         <div className="flex justify-center mt-8">
           <a
-            href="https://mufests.com"
+            href="https://forms.easebuzz.in/register/Mandsaur0rhTp/Hackathon_And_LAN_Gaming"
             className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
           >
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
