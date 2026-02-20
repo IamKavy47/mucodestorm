@@ -60,7 +60,7 @@ export default function FAQ() {
     },
     {
       question: "What's included in the registration fee?",
-      answer: "We will be providing accommodation and meals for participants, ensuring a hassle-free experience! And full access to the Spandan 2K25 Event. For more information about Spandan 2k25, visit [Spandan 2K25](https://meu.edu.in/chancellor-brigade/).",
+      answer: "We will be providing accommodation and meals for participants, ensuring a hassle-free experience! And full access to the Spandan 2K25 Event. For more information about Spandan 2k25, visit [Spandan 2K26](https://www.mufests.com).",
     },
     {
       question: "What should I bring?",
