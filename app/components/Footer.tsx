@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
-import { Mail, Twitter, Instagram, Linkedin, Youtube, MapPin, Phone } from "lucide-react";
+import { Globe,Mail, Twitter, Instagram, Linkedin, Youtube, MapPin, Phone } from "lucide-react";
 import { LinkPreview } from "@/components/ui/link-preview";
 
 export default function Footer() {
   const contacts = [
-    { name: "Head Cordinator", role: "Yuvi Singh Rathore", phone: "+91 62323 94854" },
-    { name: "Coordinators", role: "Mradul Maheshwari", phone: "+91 62657 78138" },
-    { role: "Kavy Porwal", phone: "+91 96916 72623" }
+    { name: "Head Cordinator", role: "Kavy Porwal", phone: "+91 9691672623" },
   ];
 
   return (
@@ -84,6 +82,10 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <SocialIcon
+                icon={<Globe />}
+                link="https://www.mufests.com"
+              />
+              <SocialIcon
                 icon={<Mail />}
                 link="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJGGqkPCSdkLhkvLpxBGqFTGjKdQzmTsZcCklkQtjHLVVwwzFbhdSXwVXmmKgnsNGdcgV"
               />
@@ -101,7 +103,7 @@ export default function Footer() {
 
         {/* Copyright and Credits */}
         <div className="mt-8 text-center text-sm text-gray-400">
-          &copy; 2025 MU CodeStorm. All rights reserved.
+          &copy; 2026 MU CodeStorm. All rights reserved.
         </div>
         
       </div>
