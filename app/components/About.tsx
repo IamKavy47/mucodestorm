@@ -6,7 +6,7 @@ export default function About() {
     {
       title: "What is MU CodeStorm?",
       description:
-        "CodeStorm is a 36-hour hackathon that brings together creative minds to tackle real-world challenges through technology. This event is your opportunity to showcase your skills, learn from peers, and potentially win exciting prizes!",
+        "CodeStorm is a 30-hour hackathon that brings together creative minds to tackle real-world challenges through technology. This event is your opportunity to showcase your skills, learn from peers, and potentially win exciting prizes!",
     },
     {
       title: "Who can participate?",
@@ -21,7 +21,7 @@ export default function About() {
     {
       title: "How does it work?",
       description:
-        "Form a team of 3-4 members, choose a problem statement from our themes, and start coding! You'll have 36 hours to create a working prototype and pitch your solution to our panel of judges.",
+        "Form a team of 3-4 members, choose a problem statement from our themes, and start coding! You'll have 30 hours to create a working prototype and pitch your solution to our panel of judges.",
     },
   ];
 
