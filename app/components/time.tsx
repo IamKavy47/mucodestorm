@@ -5,33 +5,32 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "March 20, 2025",
+      title: "March 19, 2026",
       content: (
         <div>
           <h2 className="text-xl">
-            Jamming
+            Inaugration
           </h2><br />
           <div className="grid grid-cols-2 gap-4">
-            <p>🕙 06:00 PM - 10:30 PM </p><br />
+            <p>🕙 10:00 AM - 11:00 AM </p><br />
           </div>
         </div>
       ),
     },
     {
-      title: "March 21, 2025",
+      title: "March 19, 2026",
       content: (
         <div>
           <h2 className="text-xl">
             First Day of CodeStorm
           </h2><br />
           <div className="grid grid-cols-2 gap-4">
-            <p>🕙 10:00 AM - PPT & Training Session</p><br />
-            <p>🕝 2:30 - 3:00 PM - Problem Statement Release</p>
+            <p>🕙 11:30 AM</p><br />
           </div>
         </div>
       ),
     },{
-          title: "March 21, 2025",
+          title: "March 19, 2026",
       content: (
         <div>
           <h2 className="text-xl">
@@ -44,32 +43,47 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "March 22, 2025",
+      title: "March 20, 2026",
       content: (
         <div>
           <h2 className="text-xl">Second Day of CodeStorm</h2> <br />
           <div className="grid grid-cols-2 gap-4">
-            <p>🕣 9:30 - 10:00 AM - Top 10 Announcement</p><br />
-            <p>🕜 1:30 - 3:00 PM - Final Round & Prize Distribution</p>
+            <p>🕣 10:00 AM - 12:00 AM - Judging Round</p><br />
+            <p>🕜 12:00 - 1:00 PM - Prize Distribution</p>
           </div>
         </div>
       ),
     },
     {
-      title: "March 22, 2025",
+      title: "March 20, 2026",
+      content: (
+        <div>
+          <h2 className="text-xl">
+            "Rise Beyond Limit"-An inspiring addresss by Dr. Deepak Vohra Sir.
+          </h2><br />
+          <div className="grid grid-cols-2 gap-4">
+            <p>🕙 04:30 PM - 07:00 PM</p><br />
+            <p>🕙 07:00 PM - 08:30 PM - Bike Stunt Show</p><br />
+            <p>🕙 08:30 PM - 09:30 PM - Jamming / DJ Night</p><br />
+          </div>
+        </div>
+      ),
+    },
+    
+    {
+      title: "March 21, 2026",
       content: (
         <div>
           <h2 className="text-xl">
             Celebrity Night
           </h2><br />
           <div className="grid grid-cols-2 gap-4">
-            <p>🕙 07:00 PM - 11:00 PM</p><br />
+            <p>🕙 07:00 PM - 10:00 PM</p><br />
           </div>
         </div>
       ),
     },
-    
-  ];
+    ];
   return (
     <div  className="w-full bg-transparent">
       <Timeline data={data} />
