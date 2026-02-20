@@ -48,15 +48,15 @@ export default function FAQ() {
           <p><strong>Travel & Accommodation:</strong></p>
           <ul className="list-disc pl-5">
             <li>Participants must bear their own travel expenses.</li>
-            <li>Free accommodation is available from March 20 (5 PM) to March 23 (11 AM) for outstation participants.</li>
-            <li>Food will be provided free of cost on March 21 & 22.</li>
+            <li>Free accommodation is available from March 19 (5 PM) to March 21 (11 AM) for outstation participants.</li>
+            <li>Food will be provided free of cost on March 19 & 20.</li>
           </ul>
         </>
       ),
     },
     {
       question: "Is there a registration fee?",
-      answer: "Yes, there is a very minimal registration fee of ₹1550 per team.",
+      answer: "Yes, there is a very minimal registration fee of ₹1500 per team.",
     },
     {
       question: "What's included in the registration fee?",
