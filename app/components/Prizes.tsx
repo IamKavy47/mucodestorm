@@ -5,7 +5,7 @@ export default function Prizes() {
   const prizes = [
     { place: "1st Place", amount: "₹25,000", icon: "🥇" },
     { place: "2nd Place", amount: "₹15,000", icon: "🥈" },
-    { place: "Best Idea", amount: "₹2,000", icon: "🥉" },
+    { place: "Best Idea", amount: "₹2,000", icon: "👌" },
   ];
 
   return (
