@@ -5,7 +5,7 @@ export default function Prizes() {
   const prizes = [
     { place: "1st Place", amount: "₹25,000", icon: "🥇" },
     { place: "2nd Place", amount: "₹15,000", icon: "🥈" },
-    { place: "3rd Place", amount: "₹7,000", icon: "🥉" },
+    { place: "Best Idea", amount: "₹2,000", icon: "🥉" },
   ];
 
   return (
@@ -22,12 +22,6 @@ export default function Prizes() {
               <h3 className="text-2xl font-bold mb-2 text-white z-10">{prize.amount}</h3>
             </CardSpotlight>
           ))}
-        </div>
-        <div className="mt-12 text-center">
-          <h3 className="text-2xl font-bold mb-4">Additional Prize for Best Idea!</h3>
-          {/* <span className="text-2xl font-extrabold text-center mb-12 bg-gradient-to-r from-blue-400 to-purple-600 text-transparent bg-clip-text">₹3000</span> */}
-          <span className="text-lg text-gray-300 text-3xl font-bold">₹3000 Prize for Best Idea!
-          </span>
         </div>
       </div>
     </section>
