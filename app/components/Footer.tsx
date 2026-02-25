@@ -37,9 +37,9 @@ export default function Footer() {
             </h3>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5075.202236069083!2d75.02566910937945!3d24.074685116536966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39642b7932843209%3A0x402b2fd68551b0b2!2sMandsaur%20University%20Campus!5e1!3m2!1sen!2sin!4v1739180483092!5m2!1sen!2sin"
-              width="200"
+              width="100%"
               height="150"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-full"
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

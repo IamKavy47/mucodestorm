@@ -11,14 +11,14 @@ export default function Hero() {
       
       <div className="container mx-auto px-4 relative z-10">
         
-        <div id="reg" className="h-[10rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="text-5xl md:text-7xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-sky-500">
+        <div id="reg" className="min-h-[10rem] w-full bg-black flex flex-col items-center justify-center rounded-md py-4">
+      <h1 className="text-5xl md:text-7xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-sky-500 px-4 text-center">
         CodeStorm 2.O
       </h1>
-      <h1 className="text-3xl md:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-sky-500">
+      <h1 className="text-3xl md:text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-sky-500 px-4 text-center">
         A National Level Hackathon
       </h1>
-      <div className="w-[40rem] h-10 relative">
+      <div className="w-full max-w-[40rem] h-10 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
