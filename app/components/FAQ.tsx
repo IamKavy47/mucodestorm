@@ -40,11 +40,6 @@ export default function FAQ() {
             <li>Teams can consist of members from different branches within the same college.</li>
             <li>Each team must have 3 to 4 members, including a team leader.</li>
           </ul>
-          <p><strong>Mode of Event:</strong></p>
-          <ul className="list-disc pl-5">
-            <li>The first stage (domain selection & presentation submission) will be online (non-elimination round).</li>
-            <li>The finale will be conducted in person at Mandsaur University.</li>
-          </ul>
           <p><strong>Travel & Accommodation:</strong></p>
           <ul className="list-disc pl-5">
             <li>Participants must bear their own travel expenses.</li>
