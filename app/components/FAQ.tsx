@@ -19,11 +19,10 @@ export default function FAQ() {
               <span> to start your registration.</span>
             </li>
             <li> Fill Out the Form – Enter your details and team info.</li>
-            <li> Submit a Problem Statement – Upload a PDF or PPT showcasing any idea from any domain.</li>
           </ol>
           <p className="mt-2"><strong>Note:</strong></p>
           <ul className="list-disc pl-5 text-sm opacity-90">
-            <li>The preliminary problem statement is required for registration but won't be used for elimination.</li>
+          
             <li>The official hackathon problem statements will be provided at the labs on the event day.</li>
           </ul>
         </>
@@ -35,6 +34,7 @@ export default function FAQ() {
         <>
           <ul className="list-disc pl-5 space-y-2">
             <li><strong>Team Size:</strong> This is a team event. Teams must have a minimum of 3 and a maximum of 4 members.</li>
+            <li>Team Formation : Teams can consist of members from different branches within the same college.</li>
             <li><strong>Identification:</strong> All participants must carry the original student ID card of their respective college.</li>
             <li><strong>Problem Statements:</strong> A list of problem statements will be declared at the labs. Teams must select one topic from that list.</li>
             <li><strong>Original Work:</strong> Pre-written code is strictly not allowed. All development must be done during the hackathon hours.</li>
