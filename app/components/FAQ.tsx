@@ -34,7 +34,7 @@ export default function FAQ() {
         <>
           <ul className="list-disc pl-5 space-y-2">
             <li><strong>Team Size:</strong> This is a team event. Teams must have a minimum of 3 and a maximum of 4 members.</li>
-            <li>Team Formation : Teams can consist of members from different branches within the same college.</li>
+            <li><strong>Team Formation:</strong> : Teams can consist of members from different branches within the same college.</li>
             <li><strong>Identification:</strong> All participants must carry the original student ID card of their respective college.</li>
             <li><strong>Problem Statements:</strong> A list of problem statements will be declared at the labs. Teams must select one topic from that list.</li>
             <li><strong>Original Work:</strong> Pre-written code is strictly not allowed. All development must be done during the hackathon hours.</li>
