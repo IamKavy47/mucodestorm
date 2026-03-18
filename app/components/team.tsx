@@ -5,7 +5,8 @@ import { useState } from "react";
 export default function Teams() {
   const teams = [
     { name: "Kavy Porwal", logo: "/k.jpeg", role: "Organizer" },
-    { name: "Dipesh Kumawat", logo: "", role: "Organizer" },
+    { name: "Dipesh Kumawat", logo: "https://www.mufests.com/assets/teams-imgs/dipesh.png", role: "Organizer" },
+    { name: "Rishabh Ostwal", logo: "", role: "Organizer" },
   ];
 
   return (
