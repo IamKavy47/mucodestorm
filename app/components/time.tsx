@@ -59,12 +59,11 @@ export function TimelineDemo() {
       content: (
         <div>
           <h2 className="text-xl">
-            "Rise Beyond Limit"-An inspiring addresss by Dr. Deepak Vohra Sir.
+            "The Jamvant Effect"
           </h2><br />
           <div className="grid grid-cols-2 gap-4">
             <p>🕙 04:30 PM - 07:00 PM</p><br />
             <p>🕙 07:00 PM - 08:30 PM - Bike Stunt Show</p><br />
-            <p>🕙 08:30 PM - 09:30 PM - Jamming / DJ Night</p><br />
           </div>
         </div>
       ),
